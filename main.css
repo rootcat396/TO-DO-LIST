@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.blurEffect {
+  background: rgba(152, 152, 152, 0.453);
+  backdrop-filter: blur(10px);
+}

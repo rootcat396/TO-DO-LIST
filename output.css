@@ -513,6 +513,9 @@ video {
 .left-0 {
   left: 0px;
 }
+.left-8 {
+  left: 2rem;
+}
 .right-0 {
   right: 0px;
 }
@@ -530,6 +533,9 @@ video {
 }
 .z-20 {
   z-index: 20;
+}
+.z-40 {
+  z-index: 40;
 }
 .m-auto {
   margin: auto;

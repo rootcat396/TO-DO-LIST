@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do-List</title>
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/output.css" />
   </head>
   <body>
-    <main class="overflow-x-hidden w-screen h-screen relative">
+    <main class="overflow-x-hidden w-screen h-full relative">
       <div class="flex flex-col items-center py-6">
         <h1 class="text-3xl font-semibold">To Do List</h1>
         <h2 class="py-4">Add your tasks here.</h2>
@@ -63,7 +63,7 @@
         <!-- modal for clear entry -->
         <div
           id="modalBox"
-          class="display-none blurEffect absolute z-20 top-0 bottom-0 w-screen h-screen left-0 right-0 flex flex-col justify-center items-center"
+          class="display-none blurEffect absolute z-20 top-0 bottom-0 w-screen h-full left-0 right-0 flex flex-col justify-center items-center"
         >
           <div
             id="warningModal"
@@ -104,13 +104,13 @@
           </div>
         </div>
       </div>
-      <div class="relative z-40 bottom-4 left-8">
+      <div class="absolute z-40 bottom-2 right-2">
         <h1 class="font-semibold text-gray-300">
           made by
           <p class="text-2xl font-semibold text-gray-300">Arpan Lohar</p>
         </h1>
       </div>
     </main>
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
